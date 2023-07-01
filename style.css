@@ -1,0 +1,40 @@
+﻿body {
+    background-color: black;
+}
+
+h1, p {
+    color: white;
+}
+
+nav {
+    color: white;
+    background-color: rgb(86, 70, 194);
+}
+
+#album img {
+    object-fit: fill;
+    aspect-ratio: 1;
+}
+
+.card h5,
+.card p {
+    color: black;
+}
+
+.carousel-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: lowercase;
+    color: #dc3545;
+    font-weight: bold;
+}
+
+#preferiti img {
+    height: 80vh;
+}
+
+#migliore img {
+    width: 97%;
+}
